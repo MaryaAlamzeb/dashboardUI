@@ -18,7 +18,7 @@ class OrderProcessingInfoCard extends StatelessWidget {
       padding: const EdgeInsets.fromLTRB(12, 12, 12, 16),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
-        mainAxisSize: MainAxisSize.min, // ✅ Let content define its height
+        mainAxisSize: MainAxisSize.min,
         children: [
           Text(
             '${info.value}',

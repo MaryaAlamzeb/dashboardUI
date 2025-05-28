@@ -1,4 +1,3 @@
-// stock_card.dart
 import 'package:flutter/material.dart';
 
 class StockCard extends StatelessWidget {

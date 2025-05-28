@@ -35,8 +35,6 @@ class OrderProcessingInfoGrid extends StatelessWidget {
                   ],
                 ),
                 const SizedBox(height: 16),
-
-                // Wrap layout that respects 2x2 on wide, 1x4 on narrow
                 Wrap(
                   spacing: 12,
                   runSpacing: 12,
